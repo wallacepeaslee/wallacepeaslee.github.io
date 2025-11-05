@@ -1,97 +1,167 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Student
+      institution: University of Cambridge, Cambridge, UK
+      year: 2022-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Cambridge Image Analysis Group in the Department of Applied Mathemataics and Theoretical Physics
+        - Supervised by Professor Carola-Bibiane Schönlieb
+        - Funded by the UKRI Engineering and Physical Sciences Research Council and AI for Cultural Heritage Hub
+    - title: Bacholer of Science in Mathematics, Bacholer of Science in Computer Science
+      institution: Duke University, Durham, NC, USA
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Bachelor of Science in Mathematics, Bachelor of Science in Computer Science
+        - Graduation with Distinction in Mathematics for a senior thesis titled "Dolbealt Cohomology of Non-Compact Metric Graphs" under the supervision of Professor Joseph Rabinoff.
+        - Awards | Magna Cum Lauda, Phi Beta Kappa honors, National Merit Finalist
+
+- title: Research Interests
+  type: list
+  contents: | 
+    I am interested in the intersection of image analysis and cultural heritage. In particular, this involves developing bespoke models and methods tailored to the multi-modal and multi-domain imaging data encountered in heritage science. Among other projects, some focuses in my research are: <br>
+      &nbsp;&nbsp;&nbsp;&nbsp; - Visualizing features of paintings (e.g. artist sketches) using hyperspectral data. <br>
+      &nbsp;&nbsp;&nbsp;&nbsp; - Generalizing neural-network to classifying imprints common in medieval Italian gold-ground paintings. <br>
+      &nbsp;&nbsp;&nbsp;&nbsp; - Reconstructing music manuscripts with multi-spectral image processing. <br>
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI for Cultural Heritage Hub (ArCH)
+      institution: University of Cambridge
+      year: 2025 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supporting several case studies brought by Cambridge cultural heritage institutions by developing bespoke AI and computational methods. These involve reconstructing shattered papyrus scrolls, handwriting analysis, and feature extraction from Mesoamerican manuscripts. https://www.lib.cam.ac.uk/research-institute/projects/arch.
+    
+    - title: C2D3 Music Reconstruction
+      institution: University of Cambridge
+      year: 2025 - 2026
       description:
-        - Description 1.
-        - Description 2.
+        - Developing computational and AI methods to reconstruct degraded music notation, primarily by processing multispectral images. Collaborator on C2D3 funded project AI meets cultural heritage; Non-invasive imaging and machine learning techniques for the reconstruction of degraded historical sheet music.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Centrum Wiskunde & Informatica, PhD Internship
+      institution: Amsterdam, Netherlands
+      year: Spring 2024 
       description:
+        - Explored computational tools for cultural heritage as a visitor in the Computational Imaging group under the supervision of Prof. Tristan van Leeuwen and Dr. Francien Bossema. Funded by the Dutch Research Council (NWO) at the Dutch National Research Institute for Mathematics and Computer Science (CWI).
+        - Collaborated with the Rijksmuseum’s Operation Night Watch for multi-scale automatic image registration.
+        - Investigated multi-modal fusion of X-ray computed tomography (CT), surface scanning, and various forms of photography and photogrammetry, working on registration via optimization on Lie Groups.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: PRUV Fellow
+      institution: Duke University
+      year: 2021 - 2022
+      description:
+        - Researched Dolbeault cohomology and graphs under the guidance of Dr. Joseph Rabinoff with the support of the NSF-Funded PRUV fellowship, with an intensive research period in summer 2021.
+        - Studied topics related to Riemann surfaces, differential geometry, non-archimedean geometry, cohomology, and more.
 
-- title: Open Source Projects
+    - title: ARTICT, Applied Mathematics and Computer Vision Research
+      institution: Duke University
+      year: 2020 - 2022
+      description:
+        - Develop algorithms for art analysis using high-dimensional and multimodal data from scientific imaging of art.
+        - Supervised by Distinguished Professor Ingrid Daubechies as part of the international research team ARTICT.
+        - Apply and study dimension reduction and other signal processing methods (e.g. wavelet or machine learning approaches) through independent study courses and funded summer research.
+        - Resulted in several poster presentations, highlighted in several talks (e.g. Ingrid Daubechies Royal Society Bakerian Lecture 2025), and expected to result in a broader journal publication in preparation.
+
+    - title: Budapest Semesters in Mathematics, Forbidden Configurations
+      institution: Remote
+      year: 2020
+      description:
+        - Research the field of forbidden configurations, which has deep connections to combinatorics and graph theory.
+        - Collaborate with Dr. Attila Sali (Alfréd Rényi Institute of Mathematics) on extremal problems related to finding maximal matrices that do not contain certain forbidden submatrices.
+        - Began as BSM research course (grade A+) and continued for several years.
+
+    - title: Data Science Intern
+      institution: Navigen Pharmaceuticals, Salt Lake City, UT
+      year: Summer 2019
+      description:
+        - Implemented specialized clustering and cleaning algorithms to exploit unique attributes of the data, enabling new forms of analysis for millions of peptide sequences and helping laboratory scientists process data.
+        - Automated portions of the data-processing pipeline and played a major role in the reduction of analysis time from two weeks to a couple of hours by writing programs using tools such as shell scripting, Python, and Java.
+
+
+- title: Selected Presentations
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 33rd European Signal Processing Conference (EUSIPCO)
+      institution: Palermo, Italy
+      year: Sept 2025
+      description:
+        - "Poster & paper: <em>Potential Contrast: Properties, Equivalences, and Generalization to Multiple Classes</em>. W. Peaslee, A. Breger, and C.-B. Schonlieb."
+        - Awarded EURASIP student travel grant.
+    - title: "AI and Nahuatl Heritage Materials: Challenges and Opportunities"
+      institution: Cambridge, UK
+      year: Sept 2025
+      description:
+        - Long talk describing original research on uses of AI in analyzing the Nahuatl sources (indigenous to Mexico and Central America) alongside a gentle introduction to technical AI concepts for cultural heritage researchers.
+        - Presented novel research on bespoke AI methods for Nahuatl heritage materials, including deep learning and clustering techniques with exciting results for domain experts. Collaboration with Dr. Joshua Fitzgerald.
+    - title: International Conference on Analytical Techniques for Heritage Studies & Conservation (Technart)
+      institution: Perugia, Italy
+      year: Sept 2025
+      description:
+        - "Poster: <em>Multi-Class Normalized Potential Contrast and Applications to Multispectral Images of Manuscripts</em>. W. Peaslee, A. Breger, and C.-B. Schonlieb."
+    - title: Applied Mathematics and Learning Approaches for Cultural Heritage and the Arts
+      institution: Cagliari, Italy
+      year: April 2024
+      description:
+        - "Contributed talk: <em>Generalizing to Unseen Paintings When Classifying 14th-Century Punch Marks</em>. W. Peaslee, L. Wrapson, and C.-B. Schönlieb."
+    - title: Artificial Intelligence & Applied Mathematics for History and Archaeology
+      institution: Nice, France
+      year: Nov 2023
+      description:
+        - "Poster & highlight/lightning talk: <em>Domain Generalization for the Classification of Punch Marks in 14th-Century Italian Panels</em>. W. Peaslee, Y. Cheng, A. I. Aviles-Rivero, L. Wrapson, C.-B. Schönlieb."
+        - Invited to special issue *Advances in Artificial Intelligence and Quantitative Methods for Archaeology and Art History* in the *Journal of Cultural Heritage*, resulting in publication.
+    - title: 10th International Congress on Industrial and Applied Mathematics
+      institution: Tokyo, Japan
+      year: Aug 2023
+      description:
+        - "Poster: <em>Global and Local Dimension Reduction to Aid Underdrawing Visualization using Hyperspectral Imaging Data from a 15th-Century Painting</em>. W. Peaslee, S. Faigenbaum-Golovin, I. Daubechies, and B. Sober."
+    - title: Computational Methods for Cultural Heritage
+      institution: British Museum, London, UK
+      year: Sept 2022
+      description:
+        - Oral presentation related to work completed with the ARTICT research group.
+    - title: IEEE International Conference on Computation Photography
+      institution: CalTech, Pasadena, USA
+      year: Aug 2022
+      description:
+        - "Poster: <em>Global and Local Dimension Reduction Methods for Enhancing Underdrawing Visualization using Reflectance Hyperspectral Imaging Data from a 15th Century Painting</em>. W. Peaslee, M. Melchiorre Di Crescenzo, N. Daly, I. Daubechies, S. Faigenbaum-Golovin, C. Higgitt, and B. Sober." 
+    - title: Computational Approaches for Technical Imaging in Cultural Heritage, 7th IP4AI
+      institution: Virtual
+      year: April 2022
+      description:
+        - "Poster: <em>Enhancing Underdrawing Visualization using Adaptive and Localized Image Analysis of Reflectance Hyperspectral Imaging Data from a 15th Century Painting</em>. W. Peaslee, M. Melchiorre Di Crescenzo, N. Daly, I. Daubechies, S. Faigenbaum-Golovin, C. Higgitt, and B. Sober."
+    - title: Seminars and Mentions
+      description:
+        - In addition to speaking at the Cambridge Image Analysis seminars, I have presented at the CWI Computational Imaging group seminar led by Prof. Tristan van Leeuwen (May 2024), and gave a talk for Rijksmuseum’s Operation Night Watch science group.
+        - Research work in collaboration with Ingrid Daubechies has been highlighted in several talks, including the Bakerian Lecture 2025 at the Royal Society and other presentations.
 
-- title: Honors and Awards
+
+- title: Teaching and Service
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: SIAP Reviewer
+      institution: 
+      year: 2025
+      description:
+        - Reviewer for the SIAM Journal on Applied Mathematics (SIAP).
+    - title: V-KEMS Virtual Study Group Facilitator
+      institution: Virtual
+      year: 2025
+      description:
+        - Facilitated the three-day Virtual Study Group "Mathematics in Archaeology and the Study of Museum Collections," leading the theme Fitzwilliam Museum "Multimodal Image Registration and Stitching"
+        - Results from the workshop will be summarized in a forthcoming synopsis publication. Initiative by Virtual Forum for Knowledge Exchange in the Mathematical Sciences (V-KEMS).
+    - title: Summer Internship Supervisor
+      institution: University of Cambridge
+      year: 2023
+      description:
+        - Co-supervised undergraduate summer internship project investigating implicit neural representations with various activation functions alongside plug-and-play optimization for image super resolution.
+    - title: Research Africa, ISSN 2575-6990
+      institution: Duke University
+      year: 2019 - 2022
+      description:
+        - Lead Editor (April 2020 - May 2022) <br>
+           &nbsp;&nbsp;&nbsp;&nbsp; - Supported the development of a scholarly network on current topics broadly related to Africa by distributing information to approximately 1,5000 scholars through the Research Africa email list. <br>
+           &nbsp;&nbsp;&nbsp;&nbsp; - Managed a three-person team that revises book, literature, and media reviews for a tri-annual publication.
+        - Associate Editor (April 2019 - April 202) <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Assisted the Research Africa team by editing reviews in addition to contacting publishers and reviewers.
